@@ -43,6 +43,9 @@ Metrics/ParameterLists:
   Max: 4
   CountKeywordArgs: true
 
+Style/SpecialGlobalVars:
+  Enabled: false
+
 Style/AccessModifierIndentation:
   EnforcedStyle: outdent
 
@@ -71,8 +74,11 @@ Style/GuardClause:
   Exclude:
     - lib/bluepill/dsl/process_factory.rb
 
+Style/MultilineOperationIndentation:
+  Enabled: false
+
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-Style/TrailingComma:
+Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: 'comma'
